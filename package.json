@@ -10,6 +10,7 @@
     "jss-preset-default": "^10.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-loader-spinner": "^3.1.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "remove-react-proptypes": "^1.0.0"
@@ -45,6 +46,7 @@
     "husky": "^3.0.9",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "homepage": "https://barracuda010.github.io/goit-react-hw-04-movies/"
   }
 }
