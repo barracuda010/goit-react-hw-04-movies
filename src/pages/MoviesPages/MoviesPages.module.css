@@ -1,0 +1,29 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.movie_pos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px 20px 0;
+}
+
+.movie_size {
+  width: 100px;
+  text-align: center;
+  list-style: none;
+}
+
+.movie_size:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
+}
+
+.movie_name {
+  color: rgb(19, 18, 18);
+  text-decoration: none;
+  font-weight: bold;
+}

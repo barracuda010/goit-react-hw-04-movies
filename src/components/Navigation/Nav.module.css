@@ -1,0 +1,19 @@
+.nav_bar {
+  height: 60px;
+  background-color: rgb(53, 49, 49);
+  margin-bottom: 30px;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.link_mod {
+  text-decoration: none;
+  color: #ffffff;
+}
