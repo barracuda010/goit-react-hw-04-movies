@@ -20,7 +20,7 @@ export default class MoviesPages extends Component {
 
   componentDidMount() {
     const { location } = this.props;
-    const currentSearch = new URLSearchParams(location.search).get('search');
+    const currentSearch = new URLSearchParams(location.search).get('query');
     if (!currentSearch) {
       return;
     }
@@ -29,10 +29,10 @@ export default class MoviesPages extends Component {
 
   componentDidUpdate(prevProps) {
     const prevSearch = new URLSearchParams(prevProps.location.search).get(
-      'search',
+      'query',
     );
     const { location } = this.props;
-    const currentSearch = new URLSearchParams(location.search).get('search');
+    const currentSearch = new URLSearchParams(location.search).get('query');
     if (prevSearch && prevSearch === currentSearch) {
       return;
     }
